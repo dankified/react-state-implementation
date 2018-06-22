@@ -10,7 +10,7 @@ export default class MainContent extends React.Component {
 	}
 
 	async componentDidMount() {
-		let data = await axios.get('https://goodparts.dokku-hosted.thruhere.net/people');
+		let data = await axios.get('https://swapi.co/api/people/1');
 		console.log(data);
 	}
 
